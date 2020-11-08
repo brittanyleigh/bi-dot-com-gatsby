@@ -9,7 +9,7 @@ import data from "../../content/homepage.json"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div className="flex flex--wrap flex--center flex--50">
+    <div className="flex flex--wrap flex--center">
       {data.projects.map(item => {
         return (
           <Project
