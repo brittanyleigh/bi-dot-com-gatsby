@@ -24,6 +24,14 @@
       "description": "Custom WordPress theme design and development for non-profit organization.",
       "code": "https://github.com/brittanyleigh/ryp",
       "live": "http://r-y-p.org/"
+    },
+    {
+      "image": "/idealseat-screenshot.jpg",
+      "title": "IdealSeat Website",
+      "description": "A clean and simple marketing website design built using the static site generator Gatsby, connected to a git-based CMS.",
+      "code": "https://www.idealseat.com/",
+      "live": "https://www.idealseat.com/",
+      "alt": "idealseat.com homepage screenshot"
     }
   ],
   "places": [
