@@ -131,6 +131,7 @@ main {
   padding: 10px;
   border-radius: $roundedBorder;
   display: flex;
+  justify-content: center;
 
   @media screen and (max-width: $breakpoint-sm) {
     width: 100%;
@@ -209,6 +210,16 @@ main {
     justify-content: center;
     align-items: center;
   }
+  &--wrap {
+    flex-wrap: wrap;
+  }
+  &--50 {
+    grid-gap: 50px;
+    margin: 50px;
+    @media screen and (max-width: 475px) {
+      margin: 15px;
+    }
+  }
 }
 
 .project {
@@ -225,6 +236,7 @@ main {
   -webkit-box-pack: start;
   -ms-flex-pack: start;
   justify-content: flex-start;
+  max-width: 400px;
 
   &__img {
     width: 100%;
@@ -323,11 +335,12 @@ main {
     flex-grow: 1;
   }
   &__p {
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
     margin: 15px 0px;
     text-transform: uppercase;
     color: $contrastColor;
+    line-height: 2rem;
   }
   &__i {
     color: $button-background;
@@ -352,7 +365,7 @@ main {
     }
   }
   &__input {
-    padding: 5px;
+    padding: 10px 15px;
     margin: 0px 10px 10px 10px;
     border: solid 1px $lightGray;
     font-family: "raleway";
