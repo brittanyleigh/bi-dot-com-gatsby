@@ -285,6 +285,9 @@ main {
     cursor: pointer;
     background: darken($button-background, 10%);
   }
+  &.disabled {
+    background: $lightGray;
+  }
   svg {
     font-size: 1rem;
     vertical-align: bottom;

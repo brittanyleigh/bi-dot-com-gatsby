@@ -20,6 +20,7 @@ const IndexPage = () => (
             description={item.description}
             code={item.code}
             live={item.live}
+            private={item.private_code}
           ></Project>
         )
       })}

@@ -2,7 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import Image from "./image"
 
-import { FaCode, FaExternalLinkAlt } from "react-icons/fa"
+import { FaCode, FaExternalLinkAlt, FaLock } from "react-icons/fa"
 
 const Project = props => (
   <div className="project grid">
@@ -14,14 +14,22 @@ const Project = props => (
       <p className="project__description flex">{props.description}</p>
     </div>
     <div className="project__buttons">
-      <a
-        className="button"
-        href={props.code}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <FaCode /> View Code
-      </a>
+      {props.private ? (
+        <div className="button disabled">
+          <FaLock /> Private
+        </div>
+      ) : (
+        <a
+          className="button"
+          href={props.code}
+          target="_blank"
+          rel="noopener noreferrer"
+          disabled={props.private}
+        >
+          <FaCode /> View Code
+        </a>
+      )}
+
       <a
         className="button"
         href={props.live}
@@ -42,6 +50,7 @@ Project.propTypes = {
   code: PropTypes.string.isRequired,
   live: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired,
+  private: PropTypes.bool,
 }
 
 export default Project
