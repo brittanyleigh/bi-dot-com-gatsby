@@ -33,11 +33,17 @@ fields:
     label: Description
     config:
       required: true
+  - name: private_code
+    type: boolean
+    label: Private Code
+    default: false
   - type: text
     name: code
     label: Code Link
     config:
       required: true
+    showOnly:
+      field: private_code
   - type: text
     name: live
     label: Live Link
