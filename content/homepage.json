@@ -7,7 +7,8 @@
       "title": "Baseball Stats App",
       "description": "React & Redux web app for tracking your favorite MLB team's game details, standings, player stats, and recent news.",
       "code": "https://github.com/brittanyleigh/baseball-react",
-      "live": "https://master.d3a7950h2llip8.amplifyapp.com/"
+      "live": "https://master.d3a7950h2llip8.amplifyapp.com/",
+      "private_code": false
     },
     {
       "image": "/habits.jpg",
@@ -15,7 +16,8 @@
       "title": "Essentials Habit Tracker",
       "description": "Django web app for developing healthy, positive habits by tracking daily streaks for three personalized 'essentials'.",
       "code": "https://github.com/brittanyleigh/habits",
-      "live": "http://brittanyleigh.pythonanywhere.com/"
+      "live": "http://brittanyleigh.pythonanywhere.com/",
+      "private_code": false
     },
     {
       "image": "/ryp.jpg",
@@ -23,7 +25,8 @@
       "title": "Rochester Young Professionals",
       "description": "Custom WordPress theme design and development for non-profit organization.",
       "code": "https://github.com/brittanyleigh/ryp",
-      "live": "http://r-y-p.org/"
+      "live": "http://r-y-p.org/",
+      "private_code": false
     },
     {
       "image": "/idealseat-screenshot.jpg",
@@ -31,7 +34,8 @@
       "description": "A clean and simple marketing website design built using the static site generator Gatsby, connected to a git-based CMS.",
       "code": "https://www.idealseat.com/",
       "live": "https://www.idealseat.com/",
-      "alt": "idealseat.com homepage screenshot"
+      "alt": "idealseat.com homepage screenshot",
+      "private_code": true
     }
   ],
   "places": [
